@@ -35,12 +35,15 @@ li {display: inline;}
 }
 
 .LiensColor1 {
-    color: blue;
+color: blue;
+font-family: Raleway
+
 }
 
 .LiensColor2 {
     color: black;
-}
+    
+    }
 
 .decorationNone {
     text-decoration: none;
