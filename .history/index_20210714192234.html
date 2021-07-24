@@ -12,20 +12,20 @@
     <title>Reservia</title> 
 </head>
 <body>
-  <header>
   <nav class="sizeNav">
     <div class="sizeLiens flexBetween">
       <div>
         <img
           class="marglogo"
-          src="./Assets/Logo/Reservia@3x.png"
+          src="./img/Reservia@3x.png"
           alt="Logo Reservia"
           width="120px"
           height="50px"
         />
       </div>
-      <div class="flex">
-      <div class="flexCentre">
+
+      <!-- on rajoute une div qui englobe les deux liens hebergement et activités -->
+      <div class="sizeLien12 flexCentre">
         <div class="sizeLien flexCentre bordureNav">
           <a class="colorLien2 decorationNone" href="#hebergements"
             >Hébergements</a
@@ -39,11 +39,9 @@
         <a class="texteGras colorBleu decorationNone" href="#">S'inscrire</a>
       </div>
     </div>
-    </div>
   </nav>
-</header>
-<main>  
-<section>
+  <header>
+    <section>
       <div>
         <h1 class="texteGras">
           Trouvez votre hébergements pour vos vacances de rêve
@@ -65,6 +63,8 @@
       </div>
       <div class="mobileFiltreWrap filtre margFiltre">
         <div class="margFiltreTitre"><h3>Filtres</h3></div>
+        <!-- rajoute 2 div flexAround pour separer en mobile -->
+        <!-- div1 -->
         <div class="flexAround">
           <div class="flexBetween filtreTexteIcons">
             <i
@@ -77,6 +77,7 @@
             <div class="filtreTexte flexCentre">Familiales</div>
           </div>
         </div>
+        <!-- div2 -->
         <div class="mobileFiltreWrap flexAround">
           <div class="flexBetween filtreTexteIcons">
             <i class="fas fa-heart fa-lg filtreIcons flexCentre"></i>
@@ -95,6 +96,7 @@
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
     </section>
+  </header>
   <section id="hebergements" class="flexAround">
     <div class="flexColumnAround sizeHebergements backGris blocHebergements">
       <h2>Hébergements à Marseille</h2>
@@ -287,7 +289,6 @@
       </div>
     </div>
   </section>
-</main>  
   <footer>
     <div class="footer backGris flexBetween">
       <div class="margeBlocFoot1 tailleBlocFoot">
